@@ -25,7 +25,7 @@ public class CarrinhoCompra {
 	public double somaTotal() {
 		double total = 0;
 		for (Brownie brownie : brownies) {
-			total += brownie.getValor();
+			total += brownie.getValor() * brownie.getQtd();
 		}
 
 		if(cupom != null && cupom.getDesconto() > 0){
