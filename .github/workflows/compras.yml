@@ -26,11 +26,11 @@ jobs:
       run: |
         cd inatel-pipeline
         mvn clean test site
-    - name: 'Upload Artifact'
+    - name: Upload Artifact
       uses: actions/upload-artifact@v3
       with:
         name: Artefact
-        path: ./inatel-pipeline/target/site/index.html
+        path: ./inatel-pipeline/target/site/
 
 
   build:
