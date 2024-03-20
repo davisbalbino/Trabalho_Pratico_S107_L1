@@ -48,7 +48,10 @@ jobs:
         mvn clean install
 
   notification:
-    needs: build
+    needs: [
+      build,
+      test
+    ]
     env:
       EMAIL_DESTINATION: leticia.merss@hotmail.com
     runs-on: ubuntu-latest
