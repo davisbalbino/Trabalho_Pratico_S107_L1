@@ -50,7 +50,7 @@ jobs:
   notification:
     needs: build
     env:
-      EMAIL_DESTINATION: leticia.vitoria@ges.inatel.br
+      EMAIL_DESTINATION: leticia.merss@hotmail.com
     runs-on: ubuntu-latest
 
     steps:
