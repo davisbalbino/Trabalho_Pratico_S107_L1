@@ -50,7 +50,7 @@ jobs:
   notification:
     needs: build
     env:
-      EMAIL_DESTINATION: davidossantosbalbinomarcelino@gmail.com
+      EMAIL_DESTINATION: leticia.vitoria@ges.inatel.br
     runs-on: ubuntu-latest
 
     steps:
