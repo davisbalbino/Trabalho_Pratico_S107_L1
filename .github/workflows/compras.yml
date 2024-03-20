@@ -30,7 +30,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Artefact
-        path: /target/site/index.html
+        path: ./inatel-pipeline/target/site/index.html
 
 
   build:
